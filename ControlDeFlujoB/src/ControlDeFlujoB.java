@@ -67,6 +67,8 @@ public class ControlDeFlujoB {
 		
 		System.out.println(mensaje);
 		
+		leerNombre.close();
+		leerEdad.close();
 	}
 	/* public static String votar(int edad) {
 	*	 String mensaje = "";
